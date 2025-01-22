@@ -1,1 +1,4 @@
-# CS121_Project_2
+# Bubble sort and pointers
+This is a sorting alogorithm using bubbles 
+
+## Algorithm
