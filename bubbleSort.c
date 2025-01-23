@@ -10,13 +10,13 @@ int main(){
  	printf("Before: \n");
 	printValues(values);
 
- 	// test swap
+ 	/* test swap
  	int x = 3;
  	int y = 5;
  	printf("x: %d, y: %d \n", x, y);
  	swap(&x, &y);
  	printf("x: %d, y: %d \n", x, y);
-
+	*/
  	sort(values);
  	printf("After: \n");
  	printValues(values);
@@ -45,7 +45,7 @@ void sort(int* values) {
 		for (int j = 0; j < (MAX - 1); j++) {
 			if (values[j] > values[j + 1]) {
 				swap(&values[j], &values[j+1]);
-				printValues(values);
+				// printValues(values);
 			} // end of if statment
 		} // end of j for loop
 	} // end i for loop
